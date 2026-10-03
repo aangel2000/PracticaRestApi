@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const morgan = require("morgan");
 const userRoutes = require("./routes/userRoutes");
-const authRoutes = require(".routes/authRoutes");
+const authRoutes = require("./routes/authRoutes");
 
 const {poolPromise} = require("./BD");
 
